@@ -1,0 +1,10 @@
+{
+  "item.angeloshammers.wooden_hammer": "Wooden Hammer",
+  "item.angeloshammers.stone_hammer": "Stone Hammer",
+  "item.angeloshammers.golden_hammer": "Golden Hammer",
+  "item.angeloshammers.iron_hammer": "Iron Hammer",
+  "item.angeloshammers.diamond_hammer": "Diamond Hammer",
+  "item.angeloshammers.netherite_hammer": "Netherite Hammer",
+
+  "itemgroup.angeloshammers.items_group": "Angelo's Hammers Items"
+}

@@ -1,0 +1,10 @@
+{
+  "item.angeloshammers.wooden_hammer": "Martillo de madera",
+  "item.angeloshammers.stone_hammer": "Martillo de piedra",
+  "item.angeloshammers.golden_hammer": "Martillo de oro",
+  "item.angeloshammers.iron_hammer": "Martillo de hierro",
+  "item.angeloshammers.diamond_hammer": "Martillo de diamante",
+  "item.angeloshammers.netherite_hammer": "Martillo de netherita",
+
+  "itemgroup.angeloshammers.items_group": "Items de Angelo's Hammers"
+}
