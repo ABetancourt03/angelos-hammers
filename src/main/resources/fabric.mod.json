@@ -1,0 +1,48 @@
+{
+	"schemaVersion": 1,
+	"id": "angeloshammers",
+	"version": "${version}",
+	"name": "Angelo's Hammers",
+	"description": "A simple mod that adds hammers to mine in a 3x3 area",
+	"authors": [
+		"ABetancourt03"
+	],
+	"contact": {
+		"sources": "https://github.com/ABetancourt03/angelos-hammers"
+	},
+	"custom": {
+		"modmenu": {
+			"links": {
+				"modmenu.github_releases": "https://github.com/ABetancourt03/angelos-hammers/releases",
+				"modmenu.modrinth": "https://modrinth.com/mod/angelos-hammers",
+				"modmenu.curseforge": "https://www.curseforge.com/minecraft/mc-mods/angelos-hammers"
+			}
+		}
+	},
+	"license": "MIT",
+	"icon": "assets/angeloshammers/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.abetancourt03.angeloshammers.AngelosHammers"
+		],
+		"client": [
+			"com.abetancourt03.angeloshammers.AngelosHammersClient"
+		],
+		"fabric-datagen": [
+			"com.abetancourt03.angeloshammers.AngelosHammersDataGenerator"
+		]
+	},
+	"mixins": [
+		"angeloshammers.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.16.10",
+		"minecraft": "~1.20.1",
+		"java": ">=17",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
