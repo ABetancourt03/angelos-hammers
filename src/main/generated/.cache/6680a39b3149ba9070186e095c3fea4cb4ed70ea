@@ -1,1 +1,11 @@
-// 1.20.1	2025-04-01T01:34:13.5266755	Angelo's Hammers/Recipes
+// 1.20.1	2025-04-01T13:00:04.517916	Angelo's Hammers/Recipes
+b852cea06f3902de52e3c5156e73d4cb31410903 data\angeloshammers\recipes\stone_hammer.json
+ab2334af174fc8ecda224f2ecdcddd4dd4c8f2f2 data\angeloshammers\recipes\diamond_hammer.json
+d44bf597bb52982acf6b53c3eb9b9dc7b2c96380 data\angeloshammers\recipes\wooden_hammer.json
+07459216640eaa0fc2592c3d355e628b39b4ca3a data\angeloshammers\advancements\recipes\tools\wooden_hammer.json
+14e36b5dca57ab815cc006ce029ce6dcf799bc9b data\angeloshammers\advancements\recipes\tools\iron_hammer.json
+fa0a93444442e9b0a36a2cd2a117f617140e2461 data\angeloshammers\advancements\recipes\tools\diamond_hammer.json
+f73a4ad5f48cc50bb113ab87af486aaa7350037b data\angeloshammers\advancements\recipes\tools\stone_hammer.json
+c60f01ba478d58c8c9ff84b6bcdfd87a877cbd8d data\angeloshammers\advancements\recipes\tools\golden_hammer.json
+86f97e75643e4ad1d501ed0f41c911d31a22fe92 data\angeloshammers\recipes\golden_hammer.json
+08000f6b713c637c6c9808fb1fd51370547aaa73 data\angeloshammers\recipes\iron_hammer.json

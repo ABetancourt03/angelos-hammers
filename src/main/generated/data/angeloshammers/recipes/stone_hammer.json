@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "tag": "minecraft:stone_tool_materials"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    " S "
+  ],
+  "result": {
+    "item": "angeloshammers:stone_hammer"
+  },
+  "show_notification": true
+}

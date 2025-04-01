@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "equipment",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "S": {
+      "item": "minecraft:stick"
+    }
+  },
+  "pattern": [
+    "###",
+    "#S#",
+    " S "
+  ],
+  "result": {
+    "item": "angeloshammers:diamond_hammer"
+  },
+  "show_notification": true
+}
