@@ -2,14 +2,17 @@
 ---
 
 <div align="center">
-  <strong>This mod requires </strong>
-  <a href="https://modrinth.com/mod/fabric-api"><strong>Fabric API</strong></a>
+  <a href="https://fabricmc.net">
+    <img src="https://cdn.modrinth.com/data/cached_images/b5f2bbe24d378d863f70c8b4bf7bf9c0ef2b56f7.png" />
+  </a>
+
+  <a href="https://modrinth.com/mod/fabric-api">
+    <img src="https://cdn.modrinth.com/data/cached_images/351e022dbfeff5d25668ba4028b674d487c1e10f_0.webp" />
+  </a>
 </div>
 
----
-
 <div align="center">
-  <p><strong>Angelo's Hammers is a simple mod that adds various type of hammers to mine a 3x3 area.</strong></p>
+  <h3>Angelo's Hammers is a simple mod that adds various type of hammers to mine a 3x3 area.</h3>
 
   <img src="https://cdn.modrinth.com/data/cached_images/3830924d0e92932032a302990766255db704b405.png"/>
 </div>
