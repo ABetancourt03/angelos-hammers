@@ -2,6 +2,10 @@
 ---
 
 <div align="center">
+  <a href="https://modrinth.com/mod/angelos-hammers">
+    <img src="https://github.com/user-attachments/assets/15eab395-6b50-456e-8c88-f9f6183c793e" />
+  </a>
+
   <a href="https://fabricmc.net">
     <img src="https://cdn.modrinth.com/data/cached_images/b5f2bbe24d378d863f70c8b4bf7bf9c0ef2b56f7.png" />
   </a>
