@@ -2,17 +2,27 @@
 ---
 
 <div align="center">
-  <a href="https://modrinth.com/mod/angelos-hammers">
-    <img src="https://github.com/user-attachments/assets/15eab395-6b50-456e-8c88-f9f6183c793e" />
+  <a href="https://github.com/ABetancourt03/angelos-hammers">
+    <img src="https://cdn.modrinth.com/data/cached_images/2b46c0e322b5ff09b298c17cdfe6833c826ac74a.png" />
   </a>
 
-  <a href="https://fabricmc.net">
-    <img src="https://cdn.modrinth.com/data/cached_images/b5f2bbe24d378d863f70c8b4bf7bf9c0ef2b56f7.png" />
+ <a href="https://www.curseforge.com/minecraft/mc-mods/angelos-hammers">
+  <img src="https://cdn.modrinth.com/data/cached_images/3494a91b8d02c32063e94ab08f6dd796b5bb4634.png" />
+ </a>
+
+ <a href="https://modrinth.com/mod/angelos-hammers">
+   <img src="https://github.com/user-attachments/assets/72cf68d7-83b3-436c-822d-cfd343d7f304">
+ </a>
+  
+  <div align="center">
+    <a href="https://fabricmc.net">
+    <img width="191px" src="https://cdn.modrinth.com/data/cached_images/b5f2bbe24d378d863f70c8b4bf7bf9c0ef2b56f7.png" />
   </a>
 
   <a href="https://modrinth.com/mod/fabric-api">
-    <img src="https://cdn.modrinth.com/data/cached_images/351e022dbfeff5d25668ba4028b674d487c1e10f_0.webp" />
+    <img src="https://cdn.modrinth.com/data/cached_images/c4f1a960f18ab198a516e9e092572e3d4be63879.png" />
   </a>
+  </div>
 </div>
 
 <div align="center">
