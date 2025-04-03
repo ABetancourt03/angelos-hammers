@@ -6,6 +6,10 @@
     <img src="https://cdn.modrinth.com/data/cached_images/2b46c0e322b5ff09b298c17cdfe6833c826ac74a.png" />
   </a>
 
+  <a href="https://ko-fi.com/Q5Q71CX676">
+      <img src="https://cdn.modrinth.com/data/cached_images/4e525b7da08ae73392f08b3ef5da51ff72ef6889.png" />
+    </a>
+
  <a href="https://www.curseforge.com/minecraft/mc-mods/angelos-hammers">
   <img src="https://cdn.modrinth.com/data/cached_images/3494a91b8d02c32063e94ab08f6dd796b5bb4634.png" />
  </a>
