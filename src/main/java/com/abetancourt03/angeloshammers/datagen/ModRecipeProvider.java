@@ -3,21 +3,22 @@ package com.abetancourt03.angeloshammers.datagen;
 import com.abetancourt03.angeloshammers.item.ModItems;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricRecipeProvider;
-import net.minecraft.data.server.recipe.RecipeJsonProvider;
+import net.minecraft.data.server.recipe.RecipeExporter;
 import net.minecraft.data.server.recipe.ShapedRecipeJsonBuilder;
 import net.minecraft.item.Items;
 import net.minecraft.recipe.book.RecipeCategory;
+import net.minecraft.registry.RegistryWrapper;
 import net.minecraft.registry.tag.ItemTags;
 
-import java.util.function.Consumer;
+import java.util.concurrent.CompletableFuture;
 
 public class ModRecipeProvider extends FabricRecipeProvider {
-    public ModRecipeProvider(FabricDataOutput output) {
-        super(output);
+    public ModRecipeProvider(FabricDataOutput output, CompletableFuture<RegistryWrapper.WrapperLookup> registriesFuture) {
+        super(output, registriesFuture);
     }
 
     @Override
-    public void generate(Consumer<RecipeJsonProvider> consumer) {
+    public void generate(RecipeExporter recipeExporter) {
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.WODDEN_HAMMER, 1)
                 .pattern("###")
                 .pattern("#S#")
@@ -26,7 +27,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.OAK_PLANKS), conditionsFromItem(Items.OAK_PLANKS))
-                .offerTo(consumer);
+                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.STONE_HAMMER, 1)
                 .pattern("###")
@@ -36,7 +37,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.COBBLESTONE), conditionsFromItem(Items.COBBLESTONE))
-                .offerTo(consumer);
+                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.GOLDEN_HAMMER, 1)
                 .pattern("###")
@@ -46,7 +47,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.GOLD_INGOT), conditionsFromItem(Items.GOLD_INGOT))
-                .offerTo(consumer);
+                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.IRON_HAMMER, 1)
                 .pattern("###")
@@ -56,7 +57,7 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.IRON_INGOT), conditionsFromItem(Items.IRON_INGOT))
-                .offerTo(consumer);
+                .offerTo(recipeExporter);
 
         ShapedRecipeJsonBuilder.create(RecipeCategory.TOOLS, ModItems.DIAMOND_HAMMER, 1)
                 .pattern("###")
@@ -66,6 +67,6 @@ public class ModRecipeProvider extends FabricRecipeProvider {
                 .input('S', Items.STICK)
                 .criterion(hasItem(Items.STICK), conditionsFromItem(Items.STICK))
                 .criterion(hasItem(Items.DIAMOND), conditionsFromItem(Items.DIAMOND))
-                .offerTo(consumer);
+                .offerTo(recipeExporter);
     }
 }

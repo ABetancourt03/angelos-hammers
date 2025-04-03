@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:iron_ingot"
-            ]
+            "items": "minecraft:iron_ingot"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_stick",
-      "has_iron_ingot",
-      "has_the_recipe"
+      "has_iron_ingot"
     ]
   ],
   "rewards": {
     "recipes": [
       "angeloshammers:iron_hammer"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

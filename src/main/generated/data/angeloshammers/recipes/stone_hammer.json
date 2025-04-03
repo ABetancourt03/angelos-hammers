@@ -15,7 +15,7 @@
     " S "
   ],
   "result": {
-    "item": "angeloshammers:stone_hammer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "angeloshammers:stone_hammer"
+  }
 }

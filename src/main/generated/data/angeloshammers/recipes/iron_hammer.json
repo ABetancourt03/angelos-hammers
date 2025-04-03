@@ -15,7 +15,7 @@
     " S "
   ],
   "result": {
-    "item": "angeloshammers:iron_hammer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "angeloshammers:iron_hammer"
+  }
 }

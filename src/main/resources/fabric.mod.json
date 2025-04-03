@@ -37,8 +37,8 @@
 		"angeloshammers.mixins.json"
 	],
 	"depends": {
-		"fabricloader": ">=0.16.10",
-		"minecraft": "~1.20.1",
+		"fabricloader": ">=0.16.12",
+		"minecraft": "~1.20.5",
 		"java": ">=17",
 		"fabric-api": "*"
 	},

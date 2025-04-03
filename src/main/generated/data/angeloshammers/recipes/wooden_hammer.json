@@ -15,7 +15,7 @@
     " S "
   ],
   "result": {
-    "item": "angeloshammers:wooden_hammer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "angeloshammers:wooden_hammer"
+  }
 }

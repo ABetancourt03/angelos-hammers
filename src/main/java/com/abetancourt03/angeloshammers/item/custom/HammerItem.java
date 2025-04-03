@@ -1,9 +1,8 @@
 package com.abetancourt03.angeloshammers.item.custom;
 
-import net.minecraft.block.Block;
 import net.minecraft.item.MiningToolItem;
 import net.minecraft.item.ToolMaterial;
-import net.minecraft.registry.tag.TagKey;
+import net.minecraft.registry.tag.BlockTags;
 import net.minecraft.server.network.ServerPlayerEntity;
 import net.minecraft.util.hit.BlockHitResult;
 import net.minecraft.util.hit.HitResult;
@@ -14,8 +13,8 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class HammerItem extends MiningToolItem {
-    public HammerItem(float attackDamage, float attackSpeed, ToolMaterial material, TagKey<Block> effectiveBlocks, Settings settings) {
-        super(attackDamage, attackSpeed, material, effectiveBlocks, settings);
+    public HammerItem(ToolMaterial material, Settings settings) {
+        super(material, BlockTags.PICKAXE_MINEABLE, settings);
     }
 
     public static List<BlockPos> getBlocksToBeDestroyed(int range, BlockPos initalBlockPos, ServerPlayerEntity player) {

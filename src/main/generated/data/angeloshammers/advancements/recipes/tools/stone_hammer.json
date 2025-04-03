@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:cobblestone"
-            ]
+            "items": "minecraft:cobblestone"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_stick",
-      "has_cobblestone",
-      "has_the_recipe"
+      "has_cobblestone"
     ]
   ],
   "rewards": {
     "recipes": [
       "angeloshammers:stone_hammer"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

@@ -5,9 +5,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:oak_planks"
-            ]
+            "items": "minecraft:oak_planks"
           }
         ]
       },
@@ -17,9 +15,7 @@
       "conditions": {
         "items": [
           {
-            "items": [
-              "minecraft:stick"
-            ]
+            "items": "minecraft:stick"
           }
         ]
       },
@@ -34,15 +30,14 @@
   },
   "requirements": [
     [
+      "has_the_recipe",
       "has_stick",
-      "has_oak_planks",
-      "has_the_recipe"
+      "has_oak_planks"
     ]
   ],
   "rewards": {
     "recipes": [
       "angeloshammers:wooden_hammer"
     ]
-  },
-  "sends_telemetry_event": false
+  }
 }

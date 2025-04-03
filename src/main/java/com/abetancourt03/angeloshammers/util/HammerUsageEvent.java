@@ -18,7 +18,8 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 
     @Override
-    public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos, BlockState blockState, @Nullable BlockEntity blockEntity) {
+    public boolean beforeBlockBreak(World world, PlayerEntity player, BlockPos pos,
+                                    BlockState state, @Nullable BlockEntity blockEntity) {
         ItemStack mainHandItem = player.getMainHandStack();
 
         if(mainHandItem.getItem() instanceof HammerItem hammer && player instanceof ServerPlayerEntity serverPlayer) {
@@ -27,7 +28,7 @@ public class HammerUsageEvent implements PlayerBlockBreakEvents.Before {
             }
 
             for(BlockPos position : HammerItem.getBlocksToBeDestroyed(1, pos, serverPlayer)) {
-                if(pos == position) {
+                if(pos == position || !hammer.isCorrectForDrops(mainHandItem, world.getBlockState(position))) {
                     continue;
                 }
 

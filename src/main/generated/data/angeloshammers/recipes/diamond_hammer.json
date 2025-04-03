@@ -15,7 +15,7 @@
     " S "
   ],
   "result": {
-    "item": "angeloshammers:diamond_hammer"
-  },
-  "show_notification": true
+    "count": 1,
+    "id": "angeloshammers:diamond_hammer"
+  }
 }
