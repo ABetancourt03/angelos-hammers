@@ -2,10 +2,6 @@
 ---
 
 <div align="center">
-  <a href="https://github.com/ABetancourt03/angelos-hammers">
-    <img src="https://cdn.modrinth.com/data/cached_images/2b46c0e322b5ff09b298c17cdfe6833c826ac74a.png" />
-  </a>
-
   <a href="https://ko-fi.com/Q5Q71CX676">
       <img src="https://cdn.modrinth.com/data/cached_images/4e525b7da08ae73392f08b3ef5da51ff72ef6889.png" />
     </a>
