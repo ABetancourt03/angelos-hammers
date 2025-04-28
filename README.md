@@ -29,6 +29,33 @@
 </div>
 
 <div align="center">
+  <h2>Also works in Forge and NeoForge</h2>
+  <strong>¡¡IMPORTANT!!</strong>
+  <p>For Forge only works on 1.20.1.</p>
+  <p>And for NeoForge on 1.20.1, 1.21 and 1.21.1.</p>
+
+  </a>
+
+  <a href="https://modrinth.com/mod/connector" target="_blank" rel="noopener noreferrer">
+    <img width="300px"  src="https://cdn.modrinth.com/data/cached_images/538973c835bf323d8b0048512d61c0ff8aa30f0b.png" />
+  </a>
+
+ <div align="center">
+    <a href="https://modrinth.com/mod/forgified-fabric-api" target="_blank" rel="noopener noreferrer">
+    <img  src="https://cdn.modrinth.com/data/cached_images/167dc4a406313cb19c2e4bd1493d74180ab8c591.png" />
+  </a>
+
+  <a href="https://modrinth.com/mod/connector-extras" target="_blank" rel="noopener noreferrer">
+    <img  src="https://cdn.modrinth.com/data/cached_images/81c4efc44654ac0db30652242292978d25f882b1.png" />
+  </a>
+ </div>
+
+  <h3>For Fabric only requires Fabric API.</h3>
+</div>
+
+---
+
+<div align="center">
   <h3>Angelo's Hammers is a simple mod that adds various type of hammers to mine a 3x3 area.</h3>
 
   <img src="https://cdn.modrinth.com/data/cached_images/3830924d0e92932032a302990766255db704b405.png"/>
