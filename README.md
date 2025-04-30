@@ -1,8 +1,8 @@
 <div align="center">
- <img src="https://github.com/user-attachments/assets/8d259b0f-20f6-410f-80da-3bb7cfab3d7f" />
+ <img src="https://github.com/user-attachments/assets/02c13550-ffdd-4661-8d27-34fb4502c8dd" />
 </div>
 
-<br></br>
+<h2> </h2>
 
 <div align="center">
  <a href="https://modrinth.com/mod/angelos-hammers">
