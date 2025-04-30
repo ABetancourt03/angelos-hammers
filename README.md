@@ -1,5 +1,8 @@
-![Banner](https://cdn.modrinth.com/data/cached_images/ecf931ddd900919f719901433c86a13054cc23f6.png)
----
+<div align="center">
+ <img src="https://github.com/user-attachments/assets/02c13550-ffdd-4661-8d27-34fb4502c8dd" />
+</div>
+
+<h2> </h2>
 
 <div align="center">
  <a href="https://modrinth.com/mod/angelos-hammers">
